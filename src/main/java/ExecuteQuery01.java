@@ -63,6 +63,9 @@ public class ExecuteQuery01 {
                 +resultSet4.getInt("grade"));
         }
 
+        statement.close();
+        con.close();
+
 
 
     }
