@@ -28,6 +28,7 @@ public class PreparedStatement01 {
         int numberOfR=prs.executeUpdate();
         System.out.println("Updated Rows:" + numberOfR);
 
+        prs.close();
         statement.close();
         con.close();
     }
